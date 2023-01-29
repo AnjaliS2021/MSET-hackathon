@@ -1,1 +1,1 @@
-# MSET-hackathon
+# mset-hackathon
