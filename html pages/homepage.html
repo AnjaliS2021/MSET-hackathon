@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+  
+<link rel="stylesheet" href="/style.css" />
+<center>
+<h1 class="title">unw<span style="color: #ffc219">i</span>nd</h1>
+</center>
+<style>
+      #left {
+        float: left;
+      }
+
+      #right {
+        float: right;
+      }
+</style>
+</head>
+  
+<body>
+  <center>
+    <img
+      src="https://cdn.glitch.global/bf12d109-53cc-45d6-aed6-bcb381dfa05b/Asset%202.png?v=1674950931536"
+      class="illustration"
+      alt="Editor illustration"
+      title="logo"
+      size="20%"
+      id="center"
+    />
+
+  <center> 
+    <br><br>
+    <p id="myPara">A new activity will generate when you click the button.</p>
+    <br>
+    <button type="button" onclick="changeText()">Generate New Activity</button>
+   <div>
+     
+    </div>
+    <br>
+    <center><button type="button" onclick="window.location.href = 'logmood.html';">Completed Activity</button></center>
+    <br>
+
+    <script>
+    function changeText(){
+      const activities = ["Go for a walk: Going on a walk provides physical activity, and allows fresh air and a chance to disconnect from the online world. A walk can be anywhere from 10 minutes to over an hour, consistency is key",
+                          "Watch a movie: Lighten your day with a funny movie or watch one of your favorites to remind you of good memories and give you a chance to escape reality",
+                          "Watch the sunset/sunrise: take in the sun’s Vitamin D and enjoy a pretty, calming sky.",
+                          "Take a nap: use this time to re energize, to take a break and wake up to be more productive",
+                         "Call someone you love: Talking to someone who knows and loves you will bring a sense of comfort, and talking about problems always makes you feel better.",
+                         "Journal or respond to prompts: writing down your thoughts and feelings can be a good venting outlet, and can help hone your creativity or unveil things you didn’t know you felt. What are you grateful for? What inspires youWhat would you say to the person you love the most? Make a list of goals you want to accomplish. Make a plan for a change you want to make in your life",
+                         "Meditate: meditation allows you to take time to yourself and regulate breathing, as well as bring peace",
+                         "Self improvement podcasts: Listening to podcasts can help you self reflect and learn how to be the best version of yourself- https://www.pushkin.fm/podcasts/the-happiness-lab-with-dr-laurie-santos (the happiness lab), https://extraordinaryroutines.com/podcast (routines and ruts), http://www.yaywithme.com/helpmebeme (help be me)",
+                         "Make a playlist for your mood: Making a playlist based on how you’re feeling can be an outlet you can use to express yourself.",
+                         "Make a cool healthy snack: You can reward yourself with a treat, which is still healthy and beneficial.- https://cookieandkate.com/avocado-toast-recipe/, https://www.loveandlemons.com/greek-salad/, https://sallysbakingaddiction.com/oatmeal-chocolate-chip-cookies/ ",
+                         "Try to make someone laugh: Making someone laugh can in turn make you happier through spreading joy and increasing serotonin and dopamine",
+                         "Give someone a meaningful compliment: Complimenting someone can really boost their mood and result in strengthening your own happiness as well",
+                         "Make coffee/tea/a drink you like: Small things like making a special drink can provide a sense of peace and happiness, as well as bring about calmness, https://www.loveandlemons.com/matcha-green-tea, https://masalaandchai.com/masala-chai, https://insanelygoodrecipes.com/coffee-recipes/ ",
+                         "Try yoga/stretching: Physical activity can release feel-good endorphins and other natural brain chemicals that help ease feelings of depression and anxiety.",
+                         "Workout or go for a short run: Physical activity can release feel-good endorphins and other natural brain chemicals that help ease feelings of depression and anxiety.",
+                         "Listen to music: Take a break from any issues you may be having and allow yourself to be completely submerged in singing your favorite song to release any unwanted feelings",
+                         "Make a pinterest/vision board: Take some time to relax and figure out any goals you have for your future",
+                         "Light a candle: Small things like lighting a candle can improve the state of your environment and even make you feel slightly happier and put together",
+                         "Read a book: Taking a break from the chaos of the world and reading a book can be relaxing and calm you down.",
+                         "Massage: Getting a massage allows you to take time to yourself and solve, as well as bring peace",
+                         "Do something that brings you peace, and will make you smile"];
+      
+      var length = activities.length;
+      var random = Math.floor(Math.random() * length);
+      var randomText = activities[random];
+      var element = document.getElementById("myPara");
+      element.innerHTML = randomText;
+    }
+    </script></center>
+</body>
+</html>
+

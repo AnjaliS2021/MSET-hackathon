@@ -1,0 +1,40 @@
+:root {
+  --color-bg: #fce1e1;
+  --color-text-main: #787d8a;
+  --color-primary: #787d8a;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";  
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: #fce1e1;
+}
+
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+h1 {
+  color: #787d8a;
+}
+
+button,
+input {
+  color: #787d8a;
+  font-family: inherit;
+  font-size: 100%;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-color: #787d8a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}

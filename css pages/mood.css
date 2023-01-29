@@ -1,0 +1,28 @@
+button,
+input {
+  color: #787d8a;
+  font-family: inherit;
+  font-size: 100%;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-color: #787d8a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+:root {
+  --color-bg: #bad0f7;
+  --color-text-main: #00000;
+  --color-primary: #C5FBFF;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+}
